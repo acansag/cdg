@@ -1,0 +1,127 @@
+
+.etkinlik-tipi {
+	font-family: monospace;
+	margin-top: 2rem;
+}
+.etkinlik-tipi-cizgisi {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+.etkinlik-kisi {
+	font-style: italic;
+}
+.etkinlik-saat {
+	font-family: sans-serif;
+	padding-top: .6rem;
+}
+.performanslar .etkinlik-saat {
+
+}
+
+.etkinlik-yer {
+
+}
+.program {
+
+	text-align: center;
+}
+
+.etkinlik {
+
+}
+
+.atolyeler {
+	background-color: #001f3f;
+	color: #7FDBFF;
+}
+.sunumlar {
+	background-color: #eaffe8; /*272727--dark-gray 111222--cool-black;*/
+	color: #f33a24;
+	/*dfbb43--dark-cool-yellow 3baed5--light-blue--  9acd32--yellow?--  eacd57--yellow
+	325e2c--asker-yesili  */
+}
+.performanslar {
+	margin-bottom: 4rem;
+	background-color: #eacd57; /*272727--dark-gray 111222--cool-black;*/
+	color: #47003f;
+}
+
+
+.atolyeler .etkinlik:nth-of-type(even) {
+	background-color: #85144b;
+}
+.sunumlar .etkinlik:nth-of-type(even) {
+	background-color: #c5dbc2;
+}
+.performanslar .etkinlik:nth-of-type(even) {
+	background-color: #ba5536;
+}
+
+.etkinlik-baslik {
+	font-family: monospace;
+}
+
+
+.container {
+  max-width: 800px; }
+.header {
+	height: 80vh;
+  margin-top: 6rem;
+  text-align: center; }
+
+
+
+/* Larger than phone */
+@media (min-width: 550px) {
+	.etkinlik-tipi {
+		margin-bottom: 0;
+	}
+	.etkinlik-tipi-cizgisi {
+		visibility: collapse;
+	}
+	.etkinlik {
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+  .header {
+    margin-top: 18rem; }
+
+}
+
+
+
+
+
+/** Skeleton-tabs obtained at Github / nathancahill **/
+
+ul.tab-nav {
+    list-style: none;
+    border-bottom: 0 solid #bbb;
+}
+
+ul.tab-nav li {
+    display: inline;
+}
+
+ul.tab-nav li a.button {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 30px;
+
+}
+
+ul.tab-nav li a.active.button {
+    border-bottom: 1px solid #fff;
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+}
+
+.tab-content .tab-pane {
+    display: none;
+    margin-bottom: 4rem;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+}
