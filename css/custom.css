@@ -1,3 +1,25 @@
+.cdg-body {
+	background-color: #FFF9C4;
+	color: #4d4d4d;
+}
+
+.cdg-0 {
+	color: #e82a6e; /* odtu kirmizi -- #f7b733; /* sunshine */
+}
+.cdg-1 {
+	color: #3baed5;
+}
+
+.cdg-2 {
+	color: #FFA000; /* mustard */
+}
+
+.cdg-3 {
+	color: #AB47BC; /* fushia *
+	color: #Fc4a1a; * vermillon */
+}
+
+
 
 .etkinlik-tipi {
 	font-family: monospace;
@@ -12,22 +34,22 @@
 }
 .etkinlik-saat {
 	font-family: sans-serif;
-	padding-top: .6rem;
+	font-weight: bold;
+	padding-top: .8rem;
+	padding-bottom: 3rem;
 }
 .performanslar .etkinlik-saat {
 
 }
-
-.etkinlik-yer {
-
+.sunumlar hr {
+	border-color: #111222;
 }
+.performanslar hr {
+	border-color: #111222;
+}
+
 .program {
-
 	text-align: center;
-}
-
-.etkinlik {
-
 }
 
 .atolyeler {
@@ -41,10 +63,20 @@
 	325e2c--asker-yesili  */
 }
 .performanslar {
-	margin-bottom: 4rem;
-	background-color: #eacd57; /*272727--dark-gray 111222--cool-black;*/
+
+	background-color: #eacd57;
 	color: #47003f;
 }
+.parti {
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+	background-color: #272727;
+	color: #7FDBFF;
+}
+.parti-saat {
+	font-weight: bold;
+}
+
 
 
 .atolyeler .etkinlik:nth-of-type(even) {
@@ -62,6 +94,19 @@
 }
 
 
+
+.harita {
+	position: relative;
+	width: 100vw;
+	height: 70vh;
+	margin-bottom: 5rem;
+}
+
+.ulasim > h3, h2 {
+
+}
+
+
 .container {
   max-width: 800px; }
 .header {
@@ -69,6 +114,10 @@
   margin-top: 6rem;
   text-align: center; }
 
+.footer {
+	text-align: center;
+	margin-bottom: 4rem;
+}
 
 
 /* Larger than phone */
