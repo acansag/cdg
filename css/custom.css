@@ -77,6 +77,10 @@
 	font-weight: bold;
 }
 
+.iptal {
+	background-color: #272727;
+	color: #fffddd;
+}
 
 
 .atolyeler .etkinlik:nth-of-type(even) {
